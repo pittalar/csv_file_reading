@@ -1,0 +1,6 @@
+CREATE TABLE Student (
+  id BIGINT PRIMARY KEY AUTO_INCREMENT,
+  name  VARCHAR(255) NULL,
+  emailAddress  VARCHAR(255) NULL,
+  purchasedPackage  VARCHAR(255) NULL
+);
